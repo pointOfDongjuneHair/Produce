@@ -190,6 +190,15 @@
 			<version>3.0.8</version>
 		</dependency>
 
+		<!-- OJDBC -->
+		<!-- <dependency>
+			<groupId>com.oracle.jdbc</groupId>
+			<artifactId>ojdbc8</artifactId>
+			<version>12.2.0.1</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/ojdbc8.jar</systemPath>
+		</dependency> -->
+
 
 
 		<!-- common fileupload -->

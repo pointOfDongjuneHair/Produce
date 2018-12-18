@@ -21,7 +21,65 @@
 
     <!-- Custom CSS -->
     <link href="/resources/stylish_portfolio/css/stylish-portfolio.min.css" rel="stylesheet">
+<style>
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
 
+.col-lg-6:hover .overlay {
+  opacity: 1;
+}
+.col-lg-6:hover .mb-0 {
+  opacity: 0;
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*===========================  */
+.container-portimg{
+		margin-top:7%;
+	}
+	.text-left{
+	text-align: center;
+	}
+	.btn-danger{
+	font-size: 1.2em;
+	}
+	#port_img_div{
+   		width:100%;
+   		overflow: hidden;
+	    height: auto;
+	    padding-left:3%;
+   	}
+   	#port_image{
+   		width: 100%;
+   	}
+   	.portspan1{
+   		margin-left:3%;
+   		font-weight: bold;
+   		height:10%;
+   	}
+   	#table{
+   		margin-top: 10%;
+   	}
+</style>
   </head>
 
   <body id="page-top">
@@ -36,17 +94,15 @@
           <a class="js-scroll-trigger" href="#page-top">홈</a>
         </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#about">증명 포트폴리오&결과물</a>
+          <a class="js-scroll-trigger" href="#about">저의 연구에요</a>
         </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#services">Services</a>
+          <a class="js-scroll-trigger" href="#services">기술 명세에요</a>
         </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
+          <a class="js-scroll-trigger" href="#portfolio">저란 사람은요</a>
         </li>
-        <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#contact">Contact</a>
-        </li>
+        
       </ul>
     </nav>
 
@@ -56,119 +112,53 @@
           <img src="/resources/stylish_portfolio/img/introduce.png" style="margin-bottom:5%;">
         <h1 class="mb-1">개발자 김동준입니다</h1>
         <h3 class="mb-5">
-          <em>이 사이트는 템플릿을 사용해서 간편하게 제작되었습니다</em>
+          <em>이 사이트는 Spring과 템플릿을 사용해서 간편하게 제작되었습니다</em>
         </h3>
-        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">본론</a>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#portframe">본론</a>
       </div>
-      <div class="overlay"></div>
+      <!-- <div class="overlay"></div> -->
     </header>
-<style>
-	.container-portimg{
-		margin-top:8%;
-	}
-	.text-left{
-	text-align: center;
-	}
-	.btn-danger{
-	font-size: 1.2em;
-	}
-	#port_img_div{
-   		width:60%;
-   		overflow: hidden;
-	    height: auto;
-	    padding-left:3%;
-   	}
-   	#port_image{
-   		width: 100%;
-   	}
-   	.portspan1{
-   		margin-left:3%;
-   		font-weight: bold;
-   		height:10%;
-   	}
-</style>
-
-   	
-
 	<!--technique  -->
-<section class="content-section bg-light" id="about">
-      <div class="container text-center">
+<section class="content-section bg-light" id="portmain" style="padding-bottom:0;">
+      <div class="container text-center" style="padding:0;" id="portframe">
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h6 style="color:#999">Portfolio</h6>
-            <h2>My Study</h2>
+            <h1><b  style="border-bottom:5px solid orange">My Study</b></h1>
             <div class="container text-center container-portimg" style="padding:0;">
-		        <div class="row">
-		          <div id="port_img_div"><img id="port_image" src="/resources/stylish_portfolio/img/portimg.png"></div>
-		        <div class="row" id="port_intro" style="width:38%;">
-		        	<span class="portspan1"><b>01</b> 주차관리 시스템</span>
-		        	<span>Spring Framework를 사용해서 QR코드 획득 및 사용, 웹 커뮤니티 사이트 등을 구현하였습니다.</span>
+		        <div class="row" style="height:auto;">
+		          <div id="port_img_div"><a class="js-scroll-trigger" href="#about"><img id="port_image" src="/resources/stylish_portfolio/img/portimg.png"></a></div>
+		          <a id="control_a"></a>
+		        <div class="row" id="port_intro" style="width:100%;">
+		        	<div style="text-align:center; width:48%;padding:40px;">
+			        	<h4><b style="font-size:3em;color:#1d809f;">01</b> 주차관리시스템</h4>
+			        	<hr>
+			        	<b>QR코드를 이용해서 주차된 차량의 주인에게 신호를 보내는 시스템. <b style="font-size:1.3em;color:#0b609f;">Spring Framework</b>를 이용해서 앱과
+			        	웹 커뮤니티를 제공.</b>
+		        	</div>
+		        	<div style="text-align:center; width:48%;padding:40px;">
+			        	<h4><b style="font-size:3em;color:#1d809f;">02</b> 희곡검색시스템</h4>
+			        	<hr>
+			        	<b>시대사상, 예술사조, 등장인물 외 다수의 컨텐츠를 제공하는 검색 시스템. 기본 <b style="font-size:1.3em;color:#0b609f;">Jsp</b>방식으로
+			        	구성되고 웹 커뮤니티를 제공.</b>
+		        	</div>
 		        </div>
 		        </div>
      		</div>
-            <table class="table">
-            <thead>
-            	<tr>
-            		<th>Category&Name</th>
-            	</tr>
-            </thead>
-				<tbody class="table-hover">
-				<tr>
-					<td class="text-left"><h4 style="text-align: center;">Back-end</h4></td>
-				</tr>
-				<tr>
-				<td class="text-left">
-					<button type="button" class="btn btn-danger">Spring</button>
-					<button type="button" class="btn btn-danger">Java</button>
-					<button type="button" class="btn btn-danger">Oracle</button>
-					<button type="button" class="btn btn-danger">MsSQL</button>
-					<button type="button" class="btn btn-danger">MySQL</button>
-					<button type="button" class="btn btn-danger">MyBatis</button>
-					<button type="button" class="btn btn-danger">iBatis</button>
-				</tr>
-				<tr>
-					<td class="text-left"><h4 style="text-align: center;">Front-end</h4></td>
-				</tr>
-				<tr>
-				<td class="text-left">
-					<button type="button" class="btn btn-primary">JavaScript</button>
-					<button type="button" class="btn btn-primary">jQuery</button>
-					<button type="button" class="btn btn-primary">CSS</button>
-					<button type="button" class="btn btn-primary">HTML5</button>
-					<button type="button" class="btn btn-primary">Bootstrap</button>
-				</td>
-				</tr>
-				<tr>
-					<td class="text-left"><h4 style="text-align: center;">O/S</h4></td>
-				</tr>
-				<tr>
-				<td class="text-left">
-					<button type="button" class="btn btn-Success">Windows</button>
-					<button type="button" class="btn btn-Success">Linux</button>
-				</td>
-				</tr>
-				</tbody>
-			</table>
-            
-            
-            
           </div>
         </div>
-         <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">What We Offer</a>
       </div>
-      
-      
     </section>
     
   
     
     
     <!-- About -->
-    <section class="content-section bg-light" id="about">
+    <section class="content-section bg-light">
       <div class="container text-center">
-        <div class="row">
-          <div class="col-lg-10 mx-auto">
-            <h2>증명 포트폴리오&결과물</h2>
+      <div class="row">
+          <div class="col-lg-10 mx-auto" id="about">
+            <h2>SKILL&기술 명세서</h2>
             <p class="lead mb-5">노력은 언제나 당연하고, 성실함은 어디서나 필요하다. <br>단,
             	결과가 제일 중요하다.</p>
           </div>
@@ -178,8 +168,11 @@
             <a class="portfolio-item" href="#">
               <span class="caption">
                 <span class="caption-content">
-                  <h2>Stationary</h2>
-                  <p class="mb-0">A yellow pencil with envelopes on a clean, blue backdrop!</p>
+                  <h1>Back-end</h1>
+                  <h3 class="mb-0">Spring Framework, Java, Oracle, MySQL, MsSQL, MyBatis, iBatis</h3>
+                  <div class="overlay">
+				    <div class="text"><h1>Back-end<br>기술명세서 보기</h1></div>
+				  </div>
                 </span>
               </span>
               <img class="img-fluid" src="/resources/stylish_portfolio/img/portfolio-1.jpg" alt="">
@@ -189,8 +182,11 @@
             <a class="portfolio-item" href="#">
               <span class="caption">
                 <span class="caption-content">
-                  <h2>Ice Cream</h2>
-                  <p class="mb-0">A dark blue background with a colored pencil, a clip, and a tiny ice cream cone!</p>
+                  <h1>Front-end</h1>
+                  <h3 class="mb-0">JavaScript, jQuery, CSS, HTML5, Bootstrap</h3>
+                  <div class="overlay">
+				    <div class="text"><h1>Front-end<br>기술명세서 보기</h1></div>
+				  </div>
                 </span>
               </span>
               <img class="img-fluid" src="/resources/stylish_portfolio/img/portfolio-2.jpg" alt="">
@@ -200,8 +196,11 @@
             <a class="portfolio-item" href="#">
               <span class="caption">
                 <span class="caption-content">
-                  <h2>Strawberries</h2>
-                  <p class="mb-0">Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+                  <h1>Lib&Type</h1>
+                  <h3 class="mb-0">Ajax, json, jsoup, sweetAlert </h3>
+                  <div class="overlay">
+				    <div class="text"><h1>Lib&Type<br>기술명세서 보기</h1></div>
+				  </div>
                 </span>
               </span>
               <img class="img-fluid" src="/resources/stylish_portfolio/img/portfolio-3.jpg" alt="">
@@ -211,88 +210,45 @@
             <a class="portfolio-item" href="#">
               <span class="caption">
                 <span class="caption-content">
-                  <h2>Workspace</h2>
-                  <p class="mb-0">A yellow workspace with some scissors, pencils, and other objects.</p>
+                  <h1>Etc&Office</h1>
+                  <h3 class="mb-0">Power Point, Excel, Photoshop, Illustrator</h3>
+                  <div class="overlay">
+				    <div class="text"><h1>Etc&Office<br>기술명세서 보기</h1></div>
+				  </div>
                 </span>
               </span>
               <img class="img-fluid" src="/resources/stylish_portfolio/img/portfolio-4.jpg" alt="">
             </a>
           </div>
         </div>
-         <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">What We Offer</a>
+         <a class="btn btn-danger btn-xl js-scroll-trigger" href="#services" style="margin-top:30px;">저라는 사람은요!</a>
       </div>
     </section>
 
     <!-- Services -->
-    <section class="content-section bg-primary text-white text-center" id="services">
+    <section class="content-section bg-primary text-white text-center" id="services" style="background-image:url('/resources/stylish_portfolio/img/orange.PNG')">
       <div class="container">
         <div class="content-section-heading">
-          <h3 class="text-secondary mb-0">Services</h3>
-          <h2 class="mb-5">What We Offer</h2>
+          <h2 class="mb-5" style="color:#000;">단 두 가지!</h2>
         </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-screen-smartphone"></i>
-            </span>
-            <h4>
-              <strong>Responsive</strong>
-            </h4>
-            <p class="text-faded mb-0">Looks great on any screen size!</p>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-pencil"></i>
-            </span>
-            <h4>
-              <strong>Redesigned</strong>
-            </h4>
-            <p class="text-faded mb-0">Freshly redesigned for Bootstrap 4.</p>
-          </div>
-          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-like"></i>
-            </span>
-            <h4>
-              <strong>Favorited</strong>
-            </h4>
-            <p class="text-faded mb-0">Millions of users
-              <i class="fas fa-heart"></i>
-              Start Bootstrap!</p>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <span class="service-icon rounded-circle mx-auto mb-3">
-              <i class="icon-mustache"></i>
-            </span>
-            <h4>
-              <strong>Question</strong>
-            </h4>
-            <p class="text-faded mb-0">I mustache you a question...</p>
-          </div>
+        <div class="content-section-heading">
+          <h4 class="mb-5" style="color:#000;">
+          	회사와 단체를 위해 헌신할 줄 알고<br>
+          	인내할 줄도 알아요.<br><br>
+          	인내와 헌신은 어떠한 단체에 귀속되어도 긍정적인 결과를 낳으리라는 것을 많이 느꼈어요.<br>
+          	안 되면 되게하고, 되면 더 나은 것을 되게끔 생각하고 행동하는 김동준입니다.<br>
+          	잘 부탁 드립니다!
+          </h4>
+          <h5>
+          	참고로 저희 집은 직장과 아주 가깝습니다. 야근이란 것을 할 준비가 되어 있습니다!
+          </h5>
+          <h2>
+          	↓
+          </h2>
         </div>
       </div>
     </section>
 
-
-    <!-- Portfolio -->
-    <section class="content-section" id="portfolio">
-      <div class="container">
-        <div class="content-section-heading text-center">
-          <h3 class="text-secondary mb-0">Portfolio</h3>
-          <h2 class="mb-5">Recent Projects</h2>
-        </div>
-        
-      </div>
-    </section>
-
-    <!-- Call to Action -->
-    <section class="content-section bg-primary text-white">
-      <div class="container text-center">
-        <h2 class="mb-4">The buttons below are impossible to resist...</h2>
-        <a href="#" class="btn btn-xl btn-light mr-4">Click Me!</a>
-        <a href="#" class="btn btn-xl btn-dark">Look at Me!</a>
-      </div>
-    </section>
 
     <!-- Map -->
     <section id="contact" class="map">
@@ -307,24 +263,8 @@ style = "color : # 0000FF; text-align : left"></a>
     <!-- Footer -->
     <footer class="footer text-center">
       <div class="container">
-        <ul class="list-inline mb-5">
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="#">
-              <i class="icon-social-facebook"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white mr-3" href="#">
-              <i class="icon-social-twitter"></i>
-            </a>
-          </li>
-          <li class="list-inline-item">
-            <a class="social-link rounded-circle text-white" href="#">
-              <i class="icon-social-github"></i>
-            </a>
-          </li>
-        </ul>
-        <p class="text-muted small mb-0">Copyright &copy; Your Website 2018</p>
+        
+        <p class="text-muted small mb-0">Copyright &copy; My Website 2018.12.17~2018.12.19</p>
       </div>
     </footer>
 
@@ -343,7 +283,7 @@ style = "color : # 0000FF; text-align : left"></a>
 
     <!-- Custom scripts for this template -->
     <script src="/resources/stylish_portfolio/js/stylish-portfolio.min.js"></script>
-
+	
   </body>
 
 </html>
