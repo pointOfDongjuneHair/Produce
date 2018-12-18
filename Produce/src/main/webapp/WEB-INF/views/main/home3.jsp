@@ -86,7 +86,7 @@
 
     <!-- Navigation -->
     <a class="menu-toggle rounded" href="#">
-      <i class="fas fa-bars"></i>
+      <i class="fas fa-bars" style="line-height: 50px;"></i>
     </a>
     <nav id="sidebar-wrapper">
       <ul class="sidebar-nav">
