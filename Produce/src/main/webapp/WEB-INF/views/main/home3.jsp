@@ -15,7 +15,8 @@
     <link href="/Produce/resources/stylish_portfolio/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
     <!-- <link href="/Produce/resources/stylish_portfolio/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css"> -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="/Produce/resources/stylish_portfolio/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
@@ -95,13 +96,13 @@
           <a class="js-scroll-trigger" href="#page-top">홈</a>
         </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#about">저의 연구에요</a>
+          <a class="js-scroll-trigger" href="#portframe">저의 연구에요</a>
         </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#services">기술 명세에요</a>
+          <a class="js-scroll-trigger" href="#about">기술 명세에요</a>
         </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#portfolio">저란 사람은요</a>
+          <a class="js-scroll-trigger" href="#services">저란 사람은요</a>
         </li>
         
       </ul>
