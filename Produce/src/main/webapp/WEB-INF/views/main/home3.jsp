@@ -12,17 +12,17 @@
     <title>김동준</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="/resources/stylish_portfolio/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/Produce/resources/stylish_portfolio/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 
     <!-- <link href="/Produce/resources/stylish_portfolio/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css"> -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="/resources/stylish_portfolio/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <link href="/Produce/resources/stylish_portfolio/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="/resources/stylish_portfolio/css/stylish-portfolio.min.css" rel="stylesheet">
+    <link href="/Produce/resources/stylish_portfolio/css/stylish-portfolio.min.css" rel="stylesheet">
 <style>
 .container-portimg{
 		margin-top:7%;
@@ -83,7 +83,7 @@
     <!-- Header -->
     <header class="masthead d-flex">
       <div class="container text-center my-auto">
-          <img src="/resources/stylish_portfolio/img/introduce.png" style="margin-bottom:5%;">
+          <img src="/Produce/resources/stylish_portfolio/img/introduce.png" style="margin-bottom:5%;">
         <h1 class="mb-1">개발자 김동준입니다</h1>
         <h3 class="mb-5">
           <em>이 사이트는 Spring과 템플릿을 사용해서 간편하게 제작되었습니다</em>
@@ -145,7 +145,7 @@
                   <h3 class="mb-0">Spring Framework, Java, Oracle, MySQL, MsSQL, MyBatis, iBatis</h3>
                 </span>
               </span>
-              <img class="img-fluid" src="/resources/stylish_portfolio/img/portfolio-1.jpg" alt="">
+              <img class="img-fluid" src="/Produce/resources/stylish_portfolio/img/portfolio-1.jpg" alt="">
             </a>
           </div>
           <div class="col-lg-6">
@@ -156,7 +156,7 @@
                   <h3 class="mb-0">JavaScript, jQuery, CSS, HTML5, Bootstrap</h3>
                 </span>
               </span>
-              <img class="img-fluid" src="/resources/stylish_portfolio/img/portfolio-2.jpg" alt="">
+              <img class="img-fluid" src="/Produce/resources/stylish_portfolio/img/portfolio-2.jpg" alt="">
             </a>
           </div>
           <div class="col-lg-6">
@@ -167,7 +167,7 @@
                   <h3 class="mb-0">Ajax, json, jsoup, sweetAlert </h3>
                 </span>
               </span>
-              <img class="img-fluid" src="/resources/stylish_portfolio/img/portfolio-3.jpg" alt="">
+              <img class="img-fluid" src="/Produce/resources/stylish_portfolio/img/portfolio-3.jpg" alt="">
             </a>
           </div>
           <div class="col-lg-6">
@@ -178,7 +178,7 @@
                   <h3 class="mb-0">Power Point, Excel, Photoshop, Illustrator</h3>
                 </span>
               </span>
-              <img class="img-fluid" src="/resources/stylish_portfolio/img/portfolio-4.jpg" alt="">
+              <img class="img-fluid" src="/Produce/resources/stylish_portfolio/img/portfolio-4.jpg" alt="">
             </a>
           </div>
         </div>
@@ -187,7 +187,7 @@
     </section>
 
     <!-- Services -->
-    <section class="content-section bg-primary text-white text-center" id="services" style="background-image:url('/resources/stylish_portfolio/img/orange.PNG')">
+    <section class="content-section bg-primary text-white text-center" id="services" style="background-image:url('/Produce/resources/stylish_portfolio/img/orange.PNG')">
       <div class="container">
         <div class="content-section-heading">
           <h2 class="mb-5" style="color:#000;">단 두 가지!</h2>
@@ -244,14 +244,14 @@ style = "color : # 0000FF; text-align : left"></a>
 	
 	
     <!-- Bootstrap core JavaScript -->
-    <script src="/resources/stylish_portfolio/vendor/jquery/jquery.min.js"></script>
-    <script src="/resources/stylish_portfolio/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/Produce/resources/stylish_portfolio/vendor/jquery/jquery.min.js"></script>
+    <script src="/Produce/resources/stylish_portfolio/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="/resources/stylish_portfolio/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="/Produce/resources/stylish_portfolio/vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="/resources/stylish_portfolio/js/stylish-portfolio.min.js"></script>
+    <script src="/Produce/resources/stylish_portfolio/js/stylish-portfolio.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function(){
 			$('.portfolio-item').on('click',function(e){
