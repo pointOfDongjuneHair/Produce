@@ -101,7 +101,7 @@
             <h1><b  style="border-bottom:5px solid orange">My Study</b></h1>
             <div class="container text-center container-portimg" style="padding:0;">
 		        <div class="row" style="height:auto;">
-		          <div id="port_img_div"><a class="js-scroll-trigger" href="#about"><img id="port_image" src="/resources/stylish_portfolio/img/portimg.png"></a></div>
+		          <div id="port_img_div"><a class="js-scroll-trigger" href="#about"><img id="port_image" src="/Produce/resources/stylish_portfolio/img/portimg.png"></a></div>
 		          <a id="control_a"></a>
 		        <div class="row" id="port_intro" style="width:100%;">
 		        	<div style="text-align:center; width:48%;padding:40px;">
@@ -195,8 +195,8 @@
         <div class="content-section-heading">
           <h4 class="mb-5" style="color:#000;">
           	회사와 단체를 위해 헌신할 줄 알고<br>
-          	인내할 줄도 알아요.<br><br>
-          	인내와 헌신은 어떠한 단체에 귀속되어도 긍정적인 결과를 낳으리라는 것을 많이 느꼈어요.<br>
+          	인내할 줄도 압니다.<br><br>
+          	인내와 헌신은 어떠한 단체에 귀속되어도 긍정적인 결과를 낳으리라는 것을 많이 느꼈습니다.<br>
           	안 되면 되게하고, 되면 더 나은 것을 되게끔 생각하고 행동하는 김동준입니다.<br>
           	잘 부탁 드립니다!
           </h4>
@@ -205,6 +205,7 @@
           <br>
           <h4><a href="https://github.com/pointOfDongjuneHair">깃허브 바로가기</a></h4>
           <h4><a href="https://docs.google.com/presentation/d/1Kf95vjH5EzxF4pMxYt11XUJtPWOSJuSQ1DRhduNL2ZI/edit#slide=id.g4aab76375f_2_133">PPT 바로가기</a></h4>
+          <h4><a href="파킹큐.kr/">팀프로젝트 바로가기</a></h4>
           <br>
           <hr>
           <br>
