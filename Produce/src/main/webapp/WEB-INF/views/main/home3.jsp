@@ -12,49 +12,18 @@
     <title>김동준</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="/Produce/resources/stylish_portfolio/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/resources/stylish_portfolio/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 
     <!-- <link href="/Produce/resources/stylish_portfolio/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css"> -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="/Produce/resources/stylish_portfolio/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+    <link href="/resources/stylish_portfolio/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="/Produce/resources/stylish_portfolio/css/stylish-portfolio.min.css" rel="stylesheet">
+    <link href="/resources/stylish_portfolio/css/stylish-portfolio.min.css" rel="stylesheet">
 <style>
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-}
-
-.col-lg-6:hover .overlay {
-  opacity: 1;
-}
-.col-lg-6:hover .mb-0 {
-  opacity: 0;
-}
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-/*===========================  */
 .container-portimg{
 		margin-top:7%;
 	}
@@ -81,6 +50,9 @@
    	#table{
    		margin-top: 10%;
    	}
+   	.portfolio-item{
+   		cursor:default;
+   	}
 </style>
   </head>
 
@@ -96,13 +68,13 @@
           <a class="js-scroll-trigger" href="#page-top">홈</a>
         </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#portframe">저의 연구에요</a>
+          <a class="js-scroll-trigger" href="#portframe">연구</a>
         </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#about">기술 명세에요</a>
+          <a class="js-scroll-trigger" href="#about">기술 명세</a>
         </li>
         <li class="sidebar-nav-item">
-          <a class="js-scroll-trigger" href="#services">저란 사람은요</a>
+          <a class="js-scroll-trigger" href="#services">소개합니다</a>
         </li>
         
       </ul>
@@ -111,7 +83,7 @@
     <!-- Header -->
     <header class="masthead d-flex">
       <div class="container text-center my-auto">
-          <img src="/Produce/resources/stylish_portfolio/img/introduce.png" style="margin-bottom:5%;">
+          <img src="/resources/stylish_portfolio/img/introduce.png" style="margin-bottom:5%;">
         <h1 class="mb-1">개발자 김동준입니다</h1>
         <h3 class="mb-5">
           <em>이 사이트는 Spring과 템플릿을 사용해서 간편하게 제작되었습니다</em>
@@ -129,7 +101,7 @@
             <h1><b  style="border-bottom:5px solid orange">My Study</b></h1>
             <div class="container text-center container-portimg" style="padding:0;">
 		        <div class="row" style="height:auto;">
-		          <div id="port_img_div"><a class="js-scroll-trigger" href="#about"><img id="port_image" src="/Produce/resources/stylish_portfolio/img/portimg.png"></a></div>
+		          <div id="port_img_div"><a class="js-scroll-trigger" href="#about"><img id="port_image" src="/resources/stylish_portfolio/img/portimg.png"></a></div>
 		          <a id="control_a"></a>
 		        <div class="row" id="port_intro" style="width:100%;">
 		        	<div style="text-align:center; width:48%;padding:40px;">
@@ -139,10 +111,9 @@
 			        	웹 커뮤니티를 제공.</b>
 		        	</div>
 		        	<div style="text-align:center; width:48%;padding:40px;">
-			        	<h4><b style="font-size:3em;color:#1d809f;">02</b> 희곡검색시스템</h4>
+			        	<h4><b style="font-size:3em;color:#1d809f;">02</b> 이용 만족도 조사 시스템</h4>
 			        	<hr>
-			        	<b>시대사상, 예술사조, 등장인물 외 다수의 컨텐츠를 제공하는 검색 시스템. 기본 <b style="font-size:1.3em;color:#0b609f;">Jsp</b>방식으로
-			        	구성되고 웹 커뮤니티를 제공.</b>
+			        	<b><b style="font-size:1.3em;color:#0b609f;">Oracle</b> 자체 함수를 적극 사용</b>
 		        	</div>
 		        </div>
 		        </div>
@@ -160,7 +131,7 @@
       <div class="container text-center">
       <div class="row">
           <div class="col-lg-10 mx-auto" id="about">
-            <h2>SKILL&기술 명세서</h2>
+            <h2>SKILL</h2>
             <p class="lead mb-5">노력은 언제나 당연하고, 성실함은 어디서나 필요하다. <br>단,
             	결과가 제일 중요하다.</p>
           </div>
@@ -172,12 +143,9 @@
                 <span class="caption-content">
                   <h1>Back-end</h1>
                   <h3 class="mb-0">Spring Framework, Java, Oracle, MySQL, MsSQL, MyBatis, iBatis</h3>
-                  <div class="overlay">
-				    <div class="text"><h1>Back-end<br>기술명세서 보기</h1></div>
-				  </div>
                 </span>
               </span>
-              <img class="img-fluid" src="/Produce/resources/stylish_portfolio/img/portfolio-1.jpg" alt="">
+              <img class="img-fluid" src="/resources/stylish_portfolio/img/portfolio-1.jpg" alt="">
             </a>
           </div>
           <div class="col-lg-6">
@@ -186,12 +154,9 @@
                 <span class="caption-content">
                   <h1>Front-end</h1>
                   <h3 class="mb-0">JavaScript, jQuery, CSS, HTML5, Bootstrap</h3>
-                  <div class="overlay">
-				    <div class="text"><h1>Front-end<br>기술명세서 보기</h1></div>
-				  </div>
                 </span>
               </span>
-              <img class="img-fluid" src="/Produce/resources/stylish_portfolio/img/portfolio-2.jpg" alt="">
+              <img class="img-fluid" src="/resources/stylish_portfolio/img/portfolio-2.jpg" alt="">
             </a>
           </div>
           <div class="col-lg-6">
@@ -200,12 +165,9 @@
                 <span class="caption-content">
                   <h1>Lib&Type</h1>
                   <h3 class="mb-0">Ajax, json, jsoup, sweetAlert </h3>
-                  <div class="overlay">
-				    <div class="text"><h1>Lib&Type<br>기술명세서 보기</h1></div>
-				  </div>
                 </span>
               </span>
-              <img class="img-fluid" src="/Produce/resources/stylish_portfolio/img/portfolio-3.jpg" alt="">
+              <img class="img-fluid" src="/resources/stylish_portfolio/img/portfolio-3.jpg" alt="">
             </a>
           </div>
           <div class="col-lg-6">
@@ -214,12 +176,9 @@
                 <span class="caption-content">
                   <h1>Etc&Office</h1>
                   <h3 class="mb-0">Power Point, Excel, Photoshop, Illustrator</h3>
-                  <div class="overlay">
-				    <div class="text"><h1>Etc&Office<br>기술명세서 보기</h1></div>
-				  </div>
                 </span>
               </span>
-              <img class="img-fluid" src="/Produce/resources/stylish_portfolio/img/portfolio-4.jpg" alt="">
+              <img class="img-fluid" src="/resources/stylish_portfolio/img/portfolio-4.jpg" alt="">
             </a>
           </div>
         </div>
@@ -228,7 +187,7 @@
     </section>
 
     <!-- Services -->
-    <section class="content-section bg-primary text-white text-center" id="services" style="background-image:url('/Produce/resources/stylish_portfolio/img/orange.PNG')">
+    <section class="content-section bg-primary text-white text-center" id="services" style="background-image:url('/resources/stylish_portfolio/img/orange.PNG')">
       <div class="container">
         <div class="content-section-heading">
           <h2 class="mb-5" style="color:#000;">단 두 가지!</h2>
@@ -241,8 +200,16 @@
           	안 되면 되게하고, 되면 더 나은 것을 되게끔 생각하고 행동하는 김동준입니다.<br>
           	잘 부탁 드립니다!
           </h4>
+          <br>
+          <hr>
+          <br>
+          <h4><a href="https://github.com/pointOfDongjuneHair">깃허브 바로가기</a></h4>
+          <h4><a href="https://docs.google.com/presentation/d/1Kf95vjH5EzxF4pMxYt11XUJtPWOSJuSQ1DRhduNL2ZI/edit#slide=id.g4aab76375f_2_133">PPT 바로가기</a></h4>
+          <br>
+          <hr>
+          <br>
           <h5>
-          	참고로 저희 집은 직장과 아주 가깝습니다. 야근이란 것을 할 준비가 되어 있습니다!
+          	참고로 저희 집은 직장과 아주 가깝습니다~!
           </h5>
           <h2>
           	↓
@@ -277,15 +244,22 @@ style = "color : # 0000FF; text-align : left"></a>
 	
 	
     <!-- Bootstrap core JavaScript -->
-    <script src="/Produce/resources/stylish_portfolio/vendor/jquery/jquery.min.js"></script>
-    <script src="/Produce/resources/stylish_portfolio/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/resources/stylish_portfolio/vendor/jquery/jquery.min.js"></script>
+    <script src="/resources/stylish_portfolio/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
-    <script src="/Produce/resources/stylish_portfolio/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="/resources/stylish_portfolio/vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for this template -->
-    <script src="/Produce/resources/stylish_portfolio/js/stylish-portfolio.min.js"></script>
-	
+    <script src="/resources/stylish_portfolio/js/stylish-portfolio.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.portfolio-item').on('click',function(e){
+				e.preventDefault();
+				return;
+			});
+		});
+	</script>
   </body>
 
 </html>
