@@ -83,7 +83,7 @@
     <!-- Header -->
     <header class="masthead d-flex">
       <div class="container text-center my-auto">
-          <img src="/Produce/resources/stylish_portfolio/img/introduce.png" style="margin-bottom:5%;">
+          <img src="/Produce/resources/stylish_portfolio/img/port.png" style="margin-bottom:5%;">
         <h1 class="mb-1">개발자 김동준입니다</h1>
         <h3 class="mb-5">
           <em>이 사이트는 Spring과 템플릿을 사용해서 간편하게 제작되었습니다</em>
@@ -198,7 +198,7 @@
           	인내할 줄도 압니다.<br><br>
           	인내와 헌신은 어떠한 단체에 귀속되어도 긍정적인 결과를 낳으리라는 것을 많이 느꼈습니다.<br>
           	안 되면 되게하고, 되면 더 나은 것을 되게끔 생각하고 행동하는 김동준입니다.<br>
-          	잘 부탁 드립니다!<!--ssasd  -->
+          	잘 부탁 드립니다!
           </h4>
           <br>
           <hr>
