@@ -204,8 +204,8 @@
           <hr>
           <br>
           <h4><a href="https://github.com/pointOfDongjuneHair">깃허브 바로가기</a></h4>
-          <h4><a href="https://docs.google.com/presentation/d/1Kf95vjH5EzxF4pMxYt11XUJtPWOSJuSQ1DRhduNL2ZI/edit#slide=id.g4aab76375f_2_133">PPT 바로가기</a></h4>
-          <h4><a href="https://파킹큐.kr/">팀프로젝트 바로가기</a></h4>
+          <h4><a href="https://docs.google.com/presentation/d/1Kf95vjH5EzxF4pMxYt11XUJtPWOSJuSQ1DRhduNL2ZI/edit#slide=id.g4aab76375f_2_133" target="_blank">PPT 바로가기</a></h4>
+          <h4><a href="https://파킹큐.kr/" target="_blank">팀프로젝트 바로가기</a></h4>
           <br>
           <hr>
           <br>
