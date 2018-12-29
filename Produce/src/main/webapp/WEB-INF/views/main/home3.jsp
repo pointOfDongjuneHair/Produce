@@ -53,6 +53,10 @@
    	.portfolio-item{
    		cursor:default;
    	}
+   	.row no-gutters{
+   		width: 90%;
+    	margin: 0 auto;
+   	}
 </style>
   </head>
 
@@ -84,21 +88,16 @@
     <header class="masthead d-flex">
       <div class="container text-center my-auto">
           <img src="/Produce/resources/stylish_portfolio/img/port.png" style="margin-bottom:5%;">
-        <h1 class="mb-1">개발자 김동준입니다</h1>
+        <h1 class="mb-1">신입 개발자 김동준입니다</h1>
         <h3 class="mb-5">
           <em>이 사이트는 Spring과 템플릿을 사용해서 간편하게 제작되었습니다</em>
         </h3>
         <div class="content-section-heading">
-          <br>
-          <hr>
-          <br>
+         
           <h4><a href="https://github.com/pointOfDongjuneHair">깃허브 바로가기</a></h4>
           <h4><a href="https://docs.google.com/presentation/d/1Kf95vjH5EzxF4pMxYt11XUJtPWOSJuSQ1DRhduNL2ZI/edit#slide=id.g4aab76375f_2_133" target="_blank">PPT 바로가기</a></h4>
           <h4><a href="https://파킹큐.kr/" target="_blank">팀프로젝트 바로가기</a></h4>
-          <br>
-          <hr>
-          <br>
-          
+                   
         </div>
         <a class="btn btn-primary btn-xl js-scroll-trigger" href="#portframe">본론</a>
       </div>
