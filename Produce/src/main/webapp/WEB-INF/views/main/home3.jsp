@@ -189,7 +189,7 @@
             </a>
           </div>
         </div>
-         <a class="btn btn-danger btn-xl js-scroll-trigger" href="#services" style="margin-top:30px;">저라는 사람은요!</a>
+         <a class="btn btn-danger btn-xl js-scroll-trigger" href="#services" style="margin-top:30px;">저라는 사람입니다!</a>
       </div>
     </section>
 
