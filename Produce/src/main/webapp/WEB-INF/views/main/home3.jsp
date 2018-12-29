@@ -88,6 +88,18 @@
         <h3 class="mb-5">
           <em>이 사이트는 Spring과 템플릿을 사용해서 간편하게 제작되었습니다</em>
         </h3>
+        <div class="content-section-heading">
+          <br>
+          <hr>
+          <br>
+          <h4><a href="https://github.com/pointOfDongjuneHair">깃허브 바로가기</a></h4>
+          <h4><a href="https://docs.google.com/presentation/d/1Kf95vjH5EzxF4pMxYt11XUJtPWOSJuSQ1DRhduNL2ZI/edit#slide=id.g4aab76375f_2_133" target="_blank">PPT 바로가기</a></h4>
+          <h4><a href="https://파킹큐.kr/" target="_blank">팀프로젝트 바로가기</a></h4>
+          <br>
+          <hr>
+          <br>
+          
+        </div>
         <a class="btn btn-primary btn-xl js-scroll-trigger" href="#portframe">본론</a>
       </div>
       <!-- <div class="overlay"></div> -->
@@ -113,7 +125,7 @@
 		        	<div style="text-align:center; width:48%;padding:40px;">
 			        	<h4><b style="font-size:3em;color:#1d809f;">02</b> 이용 만족도 조사 시스템</h4>
 			        	<hr>
-			        	<b><b style="font-size:1.3em;color:#0b609f;">Oracle</b> 자체 함수를 적극 사용</b>
+			        	<b><b style="font-size:1.3em;color:#0b609f;">Oracle</b>함수와 Bootstrap을 이용한 이용자 만족도 조사 시스템. 별점과 평가그래프 제공.</b>
 		        	</div>
 		        </div>
 		        </div>
@@ -200,35 +212,15 @@
           	안 되면 되게하고, 되면 더 나은 것을 되게끔 생각하고 행동하는 김동준입니다.<br>
           	잘 부탁 드립니다!
           </h4>
-          <br>
-          <hr>
-          <br>
-          <h4><a href="https://github.com/pointOfDongjuneHair">깃허브 바로가기</a></h4>
-          <h4><a href="https://docs.google.com/presentation/d/1Kf95vjH5EzxF4pMxYt11XUJtPWOSJuSQ1DRhduNL2ZI/edit#slide=id.g4aab76375f_2_133" target="_blank">PPT 바로가기</a></h4>
-          <h4><a href="https://파킹큐.kr/" target="_blank">팀프로젝트 바로가기</a></h4>
-          <br>
-          <hr>
-          <br>
-          <h5>
-          	참고로 저희 집은 직장과 아주 가깝습니다~!
-          </h5>
-          <h2>
-          	↓
-          </h2>
+         
+          
         </div>
       </div>
     </section>
 
 
     <!-- Map -->
-    <section id="contact" class="map">
-      <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&source=s_q&hl=en&q=%EC%95%84%EC%B0%A8%EC%82%B0%EB%A1%9C%2027%EA%B8%B8%2019+(home)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed"></iframe>
-      <br/>
-      <small>
-        <a href="https://maps.google.com/maps?f=q&source=embed&hl=en&amp;q=%EC%95%84%EC%B0%A8%EC%82%B0%EB%A1%9C%2027%EA%B8%B8%2019+(home)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed"
-style = "color : # 0000FF; text-align : left"></a>
-      </small>
-    </section>
+    
 
     <!-- Footer -->
     <footer class="footer text-center">
