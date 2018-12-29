@@ -53,10 +53,6 @@
    	.portfolio-item{
    		cursor:default;
    	}
-   	.row no-gutters{
-   		width: 90%;
-    	margin: 0 auto;
-   	}
 </style>
   </head>
 
@@ -147,7 +143,7 @@
             	결과가 제일 중요하다.</p>
           </div>
         </div>
-        <div class="row no-gutters">
+        <div class="row no-gutters" style="width: 90%; margin: 0 auto;">
           <div class="col-lg-6">
             <a class="portfolio-item" href="#">
               <span class="caption">
